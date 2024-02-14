@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    height: 50px;
+    width: 50px;
+}
+.container{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    flex-wrap: wrap;
+}
+.container div{
+    height:23px;
+    width: 23px;
+    border: 1px solid black;
+    background-color: white;
+}
